@@ -8,16 +8,24 @@
       content="Ultra-premium 3D portfolio for a programmer, AI builder, and advanced cinematic editor."
     />
     <title>Emp3r0r | Digital Throne Room</title>
-    <script type="module" crossorigin src="/assets/index-Cz7kMz9w.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-_D4kFH62.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-DygQQ1Wx.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-OcHECmWr.css">
   </head>
   <body>
-    <canvas id="throne-scene" aria-label="A cinematic white 3D throne room"></canvas>
+    <canvas id="throne-scene" aria-label="A cinematic 3D throne room"></canvas>
     <div class="atmosphere" aria-hidden="true"></div>
+    <div class="cursor-unveil" aria-hidden="true"></div>
+    <div class="cursor-trace" aria-hidden="true"></div>
 
     <header class="site-header">
       <a class="brand-mark" href="#hero" aria-label="Emp3r0r home">
-        <img src="/pfp.jpg" class="brand-glyph" alt="Emp3r0r" />
+        <span class="brand-glyph">E</span>
         <span>Emp3r0r</span>
       </a>
       <nav class="nav-links" aria-label="Portfolio sections">
@@ -158,30 +166,35 @@
         </div>
       </section>
 
-      <section id="contact" class="chapter chapter-contact" data-section="contact">
+      <section id="contact" class="chapter chapter-contact align-center" data-section="contact">
         <div class="chapter-panel contact-panel">
-          <span class="ash-field" aria-hidden="true">
-            <span style="--x: -280px; --y: -135px; --r: -28deg; --d: 40ms"></span>
-            <span style="--x: 250px; --y: -170px; --r: 34deg; --d: 90ms"></span>
-            <span style="--x: -220px; --y: 170px; --r: 22deg; --d: 140ms"></span>
-            <span style="--x: 270px; --y: 130px; --r: -35deg; --d: 190ms"></span>
-            <span style="--x: -120px; --y: -240px; --r: 46deg; --d: 240ms"></span>
-            <span style="--x: 115px; --y: 230px; --r: -42deg; --d: 290ms"></span>
-            <span style="--x: -340px; --y: 25px; --r: 58deg; --d: 340ms"></span>
-            <span style="--x: 340px; --y: -20px; --r: -52deg; --d: 390ms"></span>
-            <span style="--x: -40px; --y: -300px; --r: -18deg; --d: 440ms"></span>
-            <span style="--x: 40px; --y: 300px; --r: 18deg; --d: 490ms"></span>
-          </span>
-          <span class="burn-sheen" aria-hidden="true"></span>
-          <p class="eyebrow">Final chamber</p>
-          <h2>Build something worthy of attention.</h2>
-          <p>
-            Reach out for premium web development, advanced school platforms,
-            AI chat systems, or cinematic editing work.
+          <div class="contact-frame" aria-hidden="true">
+            <span class="contact-corner contact-corner--tl"></span>
+            <span class="contact-corner contact-corner--tr"></span>
+            <span class="contact-corner contact-corner--bl"></span>
+            <span class="contact-corner contact-corner--br"></span>
+            <span class="contact-glow-line contact-glow-line--h" aria-hidden="true"></span>
+            <span class="contact-glow-line contact-glow-line--v" aria-hidden="true"></span>
+          </div>
+          <div class="contact-seal" aria-hidden="true">
+            <span class="contact-seal-ring"></span>
+            <span class="contact-seal-wax"></span>
+            <span class="contact-seal-letter">E</span>
+          </div>
+
+          <p class="eyebrow">Audience with the crown</p>
+          <h2>Commission your next build.</h2>
+          <p class="contact-lead">
+            Web, AI systems, school platforms, or cinematic edits — send a clear
+            brief and you will get a focused reply with next steps.
           </p>
-          <a class="button-primary contact-button" href="mailto:hello@example.com">
-            Contact Emp3r0r
-          </a>
+          <div class="contact-actions">
+            <a class="button-primary contact-button" href="mailto:hello@example.com">Open missive</a>
+            <a class="button-ghost contact-ghost" href="#projects">Review work first</a>
+          </div>
+          <p class="contact-note">
+            Replace <code>divineplayer70@example.com</code> in <code>index.html</code> before you ship.
+          </p>
         </div>
       </section>
     </main>
